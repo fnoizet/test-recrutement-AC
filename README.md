@@ -12,7 +12,8 @@ Pour démarrer le test technique :
 
 ## Test technique (maximum 2h00)
 
-Pour débuter le projet, merci de vous référer aux user stories correspondantes via le board associé
+Pour débuter le projet, merci de vous référer aux user stories correspondantes via le board associé.    
+**Attention, l'autocomplete Ajax est la partie indispensable de ce test !** #1
 
 **Notes à prendre en compte :**
 

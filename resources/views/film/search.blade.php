@@ -4,7 +4,7 @@
 <h1 class="pageTitle">Rechercher un film</h1>
 <a href="{{url('/films')}}">Tous les Films</a>
 <form name="autoCompleteSearch" class="filmSearch" onsubmit="return false;">
-    <input type="text" name="search" id="searchField">
+    <input type="text" name="search" placeholder="Cherchez un titre ou une année" id="searchField">
 </form>
 <div id="result">
 </div>

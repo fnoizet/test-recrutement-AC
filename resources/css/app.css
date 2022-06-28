@@ -91,7 +91,7 @@ input#searchField {
 
 div#moviePoster {
     width: 400px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     aspect-ratio: calc(266/399);
     margin:auto;

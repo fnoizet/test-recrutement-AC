@@ -25,9 +25,9 @@ class CreateFilmsTable extends Migration
         $films = [
             ["Edward aux mains d'argent", "fantastique", 1990],
             ["Nikita", "thriller", 1990],
-            ["La famille Adams", "comédie", 1991],
+            ["La famille Addams", "comédie", 1991],
             ["Danse avec les loups", "drame", 1990],
-            ["Jurassik Park", "aventure", 1993],
+            ["Jurassic Park", "aventure", 1993],
             ["The Mask", "comédie", 1994],
             ["Forrest Gump", "drame", 1994],
             ["Léon", "thriller", 1994],

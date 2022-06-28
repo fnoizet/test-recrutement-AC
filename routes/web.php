@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FilmController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/films', [FilmController::class, 'index']);
+Route::get('/films/search', [FilmController::class, 'search']);
+Route::get('/films/{id}/show', [FilmController::class, 'show']);
